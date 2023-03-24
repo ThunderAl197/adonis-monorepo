@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.93.1",
+  "pnpmVersion": "6.7.1",
+  "nodeSupportedVersionRange": ">=16.13.0 <17.0.0 || >=17.13.0 <18.0.0 || >=18.13.0 <19.0.0 || >=19.6.0 <20.0.0",
+  "ensureConsistentVersions": true,
+  "repository": {
+    "url": "https://github.com/ThunderAl197/adonis-monorepo.git",
+    "defaultBranch": "dev",
+    "defaultRemote": "origin"
+  },
+  "projects": [
+    {
+      "packageName": "@adonis-monorepo/adonis",
+      "projectFolder": "apps/adonis"
+    }
+  ]
+}
