@@ -13,6 +13,14 @@
     {
       "packageName": "@adonis-monorepo/adonis",
       "projectFolder": "apps/adonis"
+    },
+    {
+      "packageName": "@adonis-monorepo/posts",
+      "projectFolder": "packages/posts"
+    },
+    {
+      "packageName": "@adonis-monorepo/adonis-lib-util",
+      "projectFolder": "packages/adonis-lib-util"
     }
   ]
 }

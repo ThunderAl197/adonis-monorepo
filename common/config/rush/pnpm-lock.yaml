@@ -7,6 +7,8 @@ importers:
 
   ../../apps/adonis:
     specifiers:
+      '@adonis-monorepo/adonis-lib-util': workspace:*
+      '@adonis-monorepo/posts': workspace:*
       '@adonisjs/assembler': ^5.9.5
       '@adonisjs/core': ^5.8.0
       '@adonisjs/lucid': ~18.3.0
@@ -26,10 +28,72 @@ importers:
       youch: ^3.2.3
       youch-terminal: ^2.2.0
     dependencies:
+      '@adonis-monorepo/adonis-lib-util': link:../../packages/adonis-lib-util
+      '@adonis-monorepo/posts': link:../../packages/posts
       '@adonisjs/core': 5.9.0
       '@adonisjs/lucid': 18.3.0_@adonisjs+core@5.9.0+pg@8.10.0
       '@adonisjs/repl': 3.1.11_@adonisjs+core@5.9.0
       pg: 8.10.0
+      proxy-addr: 2.0.7
+      reflect-metadata: 0.1.13
+      source-map-support: 0.5.21
+    devDependencies:
+      '@adonisjs/assembler': 5.9.5_@adonisjs+core@5.9.0
+      '@japa/preset-adonis': 1.2.0_eedeb36e9a0fc23e740d94cb58839cd3
+      '@japa/runner': 2.5.1
+      '@types/proxy-addr': 2.0.0
+      '@types/source-map-support': 0.5.6
+      adonis-preset-ts: 2.1.0
+      openapi-types: 12.1.0
+      pino-pretty: 10.0.0
+      typescript: 4.6.4
+      youch: 3.2.3
+      youch-terminal: 2.2.0
+
+  ../../packages/adonis-lib-util:
+    specifiers:
+      '@adonisjs/core': ^5.8.0
+      '@japa/preset-adonis': ^1.2.0
+      '@japa/runner': ^2.5.1
+      '@types/source-map-support': ^0.5.6
+      adonis-preset-ts: ^2.1.0
+      openapi-types: ~12.1.0
+      proxy-addr: ^2.0.7
+      reflect-metadata: ^0.1.13
+      source-map-support: ^0.5.21
+    dependencies:
+      '@adonisjs/core': 5.9.0
+      proxy-addr: 2.0.7
+      reflect-metadata: 0.1.13
+      source-map-support: 0.5.21
+    devDependencies:
+      '@japa/preset-adonis': 1.2.0_eedeb36e9a0fc23e740d94cb58839cd3
+      '@japa/runner': 2.5.1
+      '@types/source-map-support': 0.5.6
+      adonis-preset-ts: 2.1.0
+      openapi-types: 12.1.0
+
+  ../../packages/posts:
+    specifiers:
+      '@adonis-monorepo/adonis-lib-util': workspace:*
+      '@adonisjs/assembler': ^5.9.5
+      '@adonisjs/core': ^5.8.0
+      '@japa/preset-adonis': ^1.2.0
+      '@japa/runner': ^2.5.1
+      '@types/proxy-addr': ^2.0.0
+      '@types/source-map-support': ^0.5.6
+      adonis-preset-ts: ^2.1.0
+      openapi-types: ~12.1.0
+      pino-pretty: ^10.0.0
+      proxy-addr: ^2.0.7
+      reflect-metadata: ^0.1.13
+      source-map-support: ^0.5.21
+      typescript: ~4.6
+      youch: ^3.2.3
+      youch-terminal: ^2.2.0
+    dependencies:
+      '@adonis-monorepo/adonis-lib-util': link:../adonis-lib-util
+      '@adonisjs/core': 5.9.0
       proxy-addr: 2.0.7
       reflect-metadata: 0.1.13
       source-map-support: 0.5.21
