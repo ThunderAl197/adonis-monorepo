@@ -8,16 +8,16 @@
     "./service-provider": "./src/service-provider.js"
   },
   "dependencies": {
-    "@adonisjs/core": "^5.8.0",
-    "proxy-addr": "^2.0.7",
-    "reflect-metadata": "^0.1.13",
-    "source-map-support": "^0.5.21"
+    "@adonisjs/core": "~5.8.0",
+    "proxy-addr": "~2.0.7",
+    "reflect-metadata": "~0.1.13",
+    "source-map-support": "~0.5.21"
   },
   "devDependencies": {
-    "@japa/preset-adonis": "^1.2.0",
-    "@types/source-map-support": "^0.5.6",
-    "adonis-preset-ts": "^2.1.0",
-    "@japa/runner": "^2.5.1",
+    "@japa/preset-adonis": "~1.2.0",
+    "@types/source-map-support": "~0.5.6",
+    "adonis-preset-ts": "~2.1.0",
+    "@japa/runner": "~2.5.1",
     "openapi-types": "~12.1.0"
   }
 }

@@ -9,37 +9,37 @@ importers:
     specifiers:
       '@adonis-monorepo/adonis-lib-util': workspace:*
       '@adonis-monorepo/posts': workspace:*
-      '@adonisjs/assembler': ^5.9.5
-      '@adonisjs/core': ^5.8.0
+      '@adonisjs/assembler': ~5.9.5
+      '@adonisjs/core': ~5.8.0
       '@adonisjs/lucid': ~18.3.0
       '@adonisjs/repl': ^3.1.0
-      '@japa/preset-adonis': ^1.2.0
-      '@japa/runner': ^2.5.1
+      '@japa/preset-adonis': ~1.2.0
+      '@japa/runner': ~2.5.1
       '@types/proxy-addr': ^2.0.0
-      '@types/source-map-support': ^0.5.6
-      adonis-preset-ts: ^2.1.0
+      '@types/source-map-support': ~0.5.6
+      adonis-preset-ts: ~2.1.0
       openapi-types: ~12.1.0
       pg: ~8.10.0
-      pino-pretty: ^10.0.0
-      proxy-addr: ^2.0.7
-      reflect-metadata: ^0.1.13
-      source-map-support: ^0.5.21
+      pino-pretty: ~10.0.0
+      proxy-addr: ~2.0.7
+      reflect-metadata: ~0.1.13
+      source-map-support: ~0.5.21
       typescript: ~4.6
-      youch: ^3.2.3
-      youch-terminal: ^2.2.0
+      youch: ~3.2.3
+      youch-terminal: ~2.2.0
     dependencies:
       '@adonis-monorepo/adonis-lib-util': link:../../packages/adonis-lib-util
       '@adonis-monorepo/posts': link:../../packages/posts
-      '@adonisjs/core': 5.9.0
-      '@adonisjs/lucid': 18.3.0_@adonisjs+core@5.9.0+pg@8.10.0
-      '@adonisjs/repl': 3.1.11_@adonisjs+core@5.9.0
+      '@adonisjs/core': 5.8.9
+      '@adonisjs/lucid': 18.3.0_@adonisjs+core@5.8.9+pg@8.10.0
+      '@adonisjs/repl': 3.1.11_@adonisjs+core@5.8.9
       pg: 8.10.0
       proxy-addr: 2.0.7
       reflect-metadata: 0.1.13
       source-map-support: 0.5.21
     devDependencies:
-      '@adonisjs/assembler': 5.9.5_@adonisjs+core@5.9.0
-      '@japa/preset-adonis': 1.2.0_eedeb36e9a0fc23e740d94cb58839cd3
+      '@adonisjs/assembler': 5.9.5_@adonisjs+core@5.8.9
+      '@japa/preset-adonis': 1.2.0_1d12209bf09b863802c295cdd564679f
       '@japa/runner': 2.5.1
       '@types/proxy-addr': 2.0.0
       '@types/source-map-support': 0.5.6
@@ -52,22 +52,22 @@ importers:
 
   ../../packages/adonis-lib-util:
     specifiers:
-      '@adonisjs/core': ^5.8.0
-      '@japa/preset-adonis': ^1.2.0
-      '@japa/runner': ^2.5.1
-      '@types/source-map-support': ^0.5.6
-      adonis-preset-ts: ^2.1.0
+      '@adonisjs/core': ~5.8.0
+      '@japa/preset-adonis': ~1.2.0
+      '@japa/runner': ~2.5.1
+      '@types/source-map-support': ~0.5.6
+      adonis-preset-ts: ~2.1.0
       openapi-types: ~12.1.0
-      proxy-addr: ^2.0.7
-      reflect-metadata: ^0.1.13
-      source-map-support: ^0.5.21
+      proxy-addr: ~2.0.7
+      reflect-metadata: ~0.1.13
+      source-map-support: ~0.5.21
     dependencies:
-      '@adonisjs/core': 5.9.0
+      '@adonisjs/core': 5.8.9
       proxy-addr: 2.0.7
       reflect-metadata: 0.1.13
       source-map-support: 0.5.21
     devDependencies:
-      '@japa/preset-adonis': 1.2.0_eedeb36e9a0fc23e740d94cb58839cd3
+      '@japa/preset-adonis': 1.2.0_1d12209bf09b863802c295cdd564679f
       '@japa/runner': 2.5.1
       '@types/source-map-support': 0.5.6
       adonis-preset-ts: 2.1.0
@@ -76,30 +76,30 @@ importers:
   ../../packages/posts:
     specifiers:
       '@adonis-monorepo/adonis-lib-util': workspace:*
-      '@adonisjs/assembler': ^5.9.5
-      '@adonisjs/core': ^5.8.0
-      '@japa/preset-adonis': ^1.2.0
-      '@japa/runner': ^2.5.1
+      '@adonisjs/assembler': ~5.9.5
+      '@adonisjs/core': ~5.8.0
+      '@japa/preset-adonis': ~1.2.0
+      '@japa/runner': ~2.5.1
       '@types/proxy-addr': ^2.0.0
-      '@types/source-map-support': ^0.5.6
-      adonis-preset-ts: ^2.1.0
+      '@types/source-map-support': ~0.5.6
+      adonis-preset-ts: ~2.1.0
       openapi-types: ~12.1.0
-      pino-pretty: ^10.0.0
-      proxy-addr: ^2.0.7
-      reflect-metadata: ^0.1.13
-      source-map-support: ^0.5.21
+      pino-pretty: ~10.0.0
+      proxy-addr: ~2.0.7
+      reflect-metadata: ~0.1.13
+      source-map-support: ~0.5.21
       typescript: ~4.6
-      youch: ^3.2.3
-      youch-terminal: ^2.2.0
+      youch: ~3.2.3
+      youch-terminal: ~2.2.0
     dependencies:
       '@adonis-monorepo/adonis-lib-util': link:../adonis-lib-util
-      '@adonisjs/core': 5.9.0
+      '@adonisjs/core': 5.8.9
       proxy-addr: 2.0.7
       reflect-metadata: 0.1.13
       source-map-support: 0.5.21
     devDependencies:
-      '@adonisjs/assembler': 5.9.5_@adonisjs+core@5.9.0
-      '@japa/preset-adonis': 1.2.0_eedeb36e9a0fc23e740d94cb58839cd3
+      '@adonisjs/assembler': 5.9.5_@adonisjs+core@5.8.9
+      '@japa/preset-adonis': 1.2.0_1d12209bf09b863802c295cdd564679f
       '@japa/runner': 2.5.1
       '@types/proxy-addr': 2.0.0
       '@types/source-map-support': 0.5.6
@@ -140,13 +140,13 @@ packages:
       '@poppinss/utils': 5.0.0
       semver: 7.3.8
 
-  /@adonisjs/assembler/5.9.5_@adonisjs+core@5.9.0:
+  /@adonisjs/assembler/5.9.5_@adonisjs+core@5.8.9:
     resolution: {integrity: sha512-wCtQRZ4KoIZkzi+ux5NrDUDNASRomytRZ7AZBdw8Hi3LlEOeac4T8+47y7gXwJFKH2nnGoiIwnXGIgJyolXEfQ==}
     peerDependencies:
       '@adonisjs/core': ^5.1.0
     dependencies:
       '@adonisjs/application': 5.3.0
-      '@adonisjs/core': 5.9.0
+      '@adonisjs/core': 5.8.9
       '@adonisjs/env': 3.0.9
       '@adonisjs/ioc-transformer': 2.3.4
       '@adonisjs/require-ts': 2.0.13
@@ -193,8 +193,8 @@ packages:
     dependencies:
       '@poppinss/utils': 5.0.0
 
-  /@adonisjs/core/5.9.0:
-    resolution: {integrity: sha512-32zG9EW0t0Ck0cMzlwD0+z3GJG7k/gZz6P0+h+s8N1N7fHxGixrKs7W7lT3OcIvk0NsuIw1tUPAU7fAWytHEqA==}
+  /@adonisjs/core/5.8.9:
+    resolution: {integrity: sha512-bdlVqb6nJD/PkESrKZYO4PjmMqCpglt38kuwS1eUgHVWFrpfwvA4mbtF3T+apiTZMxc34oM79jpUtZOuLpt0uA==}
     dependencies:
       '@adonisjs/ace': 11.3.1_@adonisjs+application@5.3.0
       '@adonisjs/application': 5.3.0
@@ -315,12 +315,12 @@ packages:
       abstract-logging: 2.0.1
       pino: 6.14.0
 
-  /@adonisjs/lucid/18.3.0_@adonisjs+core@5.9.0+pg@8.10.0:
+  /@adonisjs/lucid/18.3.0_@adonisjs+core@5.8.9+pg@8.10.0:
     resolution: {integrity: sha512-EgLgwP/VkTdOjA4MvnXjZmXGJl1qQVpGe4D/bCZqyO4859LZ/kHZ5a4VXe5+b2Nk4QDWF8uYq0MbSMDGskZr1Q==}
     peerDependencies:
       '@adonisjs/core': ^5.1.0
     dependencies:
-      '@adonisjs/core': 5.9.0
+      '@adonisjs/core': 5.8.9
       '@faker-js/faker': 7.6.0
       '@poppinss/hooks': 5.0.3
       '@poppinss/utils': 5.0.0
@@ -355,12 +355,12 @@ packages:
       '@poppinss/utils': 4.0.4
       jest-worker: 27.5.1
 
-  /@adonisjs/repl/3.1.11_@adonisjs+core@5.9.0:
+  /@adonisjs/repl/3.1.11_@adonisjs+core@5.8.9:
     resolution: {integrity: sha512-t4xN+G+fa/XeZ+7qHnFbTk1bri/4RIGdFDk1cq2SeZI3nfu3E8Ma62uQVc8U3AAroN51plzXVcUoQ/Iw8q1P+Q==}
     peerDependencies:
       '@adonisjs/core': ^5.1.0
     dependencies:
-      '@adonisjs/core': 5.9.0
+      '@adonisjs/core': 5.8.9
       '@poppinss/colors': 3.0.3
       node-repl-await: 0.1.2
       parse-imports: 0.0.5
@@ -523,13 +523,13 @@ packages:
       youch-terminal: 2.2.0
     dev: true
 
-  /@japa/preset-adonis/1.2.0_eedeb36e9a0fc23e740d94cb58839cd3:
+  /@japa/preset-adonis/1.2.0_1d12209bf09b863802c295cdd564679f:
     resolution: {integrity: sha512-jcvQCN9U5WA4kdKDtYuV6DZMzrZomxho3MASS6yhnJsSqSW6jgFDNwhOgSzY7AyPgxmVAf3jZ6JKd7r2USctlA==}
     peerDependencies:
       '@adonisjs/core': ^5.0.0
       '@japa/runner': ^2.0.0
     dependencies:
-      '@adonisjs/core': 5.9.0
+      '@adonisjs/core': 5.8.9
       '@japa/api-client': 1.4.4_@japa+runner@2.5.1
       '@japa/assert': 1.4.1_19ed68bcd67b26502d238cb410539f8a
       '@japa/run-failed-tests': 1.1.1_@japa+runner@2.5.1
